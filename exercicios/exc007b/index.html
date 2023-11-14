@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citações e Códigos</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-Fonte / Pré-Formatado</h2>
+    <code>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus deserunt vel libero quidem dignissimos aliquam repellendus, atque odio at velit dolorem vero excepturi vitae ullam maxime ex. Consectetur, aliquid dolorum!</code><div><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae velit pariatur asperiores veniam quos veritatis, commodi doloribus debitis numquam, id fugiat dicta quia repellendus, nulla architecto aspernatur qui doloremque ad.</div>
+    <div><div><br></div><code>Perceba que no primeiro texto as letras estavam com uma largura mais igual, pois utilizamos a tag que permite fazer isso, está tag é extremamente útil para se escrever algum código, por exemplo:</code>
+    <hr>
+    <code>
+        num = int(input('Digite um Número'))
+        if num % 2 == 0;
+            print(f'O Número {num} é PAR')
+        else:
+            print(f'O Número {num} é ÍMPAR')
+        print('Fim do Programa')
+    </code>
+    <pre>
+        <code>
+    num = int(input('Digite um Número'))
+    if num % 2 == 0;
+        print(f'O Número {num} é PAR')
+    else:
+        print(f'O Número {num} é ÍMPAR')
+    print('Fim do Programa')
+        </code>
+    </pre>
+    <hr>
+    <div>Perceba que os 2 textos são diferentes, no primeiro não há a tag PRE, no segundo se utiliza a tag PRE.</div>
+    <h2>Citações</h2>
+    <div>Como diria um cara: <q>o computador é um burro muito rápido</q><br>Neste caso a tag &lt;q&gt; põe o trecho entre aspas dando um valor semântico a frase<br> Também podemos farzer uma citação em bloco com a tag &lt;blockquote&gt;, por exemplo:<br>Segundo Jeff Noble, no seu livro HTML para Leigos:</div>
+    <blockquote><!--se utilizarmos o comando "cite=" dentro de blocquote(<blockquote cite=...) podemos colocar o link de onde vem a citação, dessa forma o site vai "saber" de onde vem o livro-->
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <div>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascanding Style Sheets">CSS</abbr>, estou gostando muito!</div>
+    <h2>Texto Invertido</h2>
+    <div><bdo dir="rtl">Estou aprendendo a desenvolver em <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascanding Style Sheets">CSS</abbr></bdo><br><bdo dir="ltr">Estou aprendendo a desenvolver em <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascanding Style Sheets">CSS</abbr></bdo></div>
+</body>
+</html>
